@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Francois+One&family=Karla:wght@300&family=Poppins:wght@300&family=Ramabhadra&family=Righteous&display=swap);
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f4f4;
+    background-image: url(../images/895528.webp);
+}
+.oeContainer {
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 40vh;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    background-color: rgb(1, 26, 54);
+    color: white;
+}
+.oeContainer h1 {
+    font-family: 'Francois One', sans-serif;
+}
+.oeContainer .inputNumber {
+    font-family: 'Poppins', sans-serif;
+}
+.inputNumber {
+    font-size: 20px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0;
+    text-align: center;
+}
+.checkBtn {
+    width: 100px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.display {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
